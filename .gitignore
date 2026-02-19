@@ -1,2 +1,7 @@
-/node_modules
-/dist
+node_modules/
+apps/*/node_modules/
+apps/web/.next/
+apps/*/dist/
+*.log
+.env
+.env.*

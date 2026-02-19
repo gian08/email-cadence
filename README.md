@@ -58,6 +58,14 @@ TEMPORAL_ADDRESS=localhost:7233
 
 # Temporal namespace (placeholder — replace if not using default)
 TEMPORAL_NAMESPACE=default
+
+#install Temporal for windows
+winget install Temporal.TemporalCLI
+
+#run this command in seperate terminal
+temporal server start-dev
+
+
 ```
 
 ### `apps/web` — create `apps/web/.env.local`
